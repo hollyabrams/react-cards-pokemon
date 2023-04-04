@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button,
+select {
+  border-radius: 8px;
+  padding: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
