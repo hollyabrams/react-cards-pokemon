@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
 button,
 select {
   border-radius: 8px;
